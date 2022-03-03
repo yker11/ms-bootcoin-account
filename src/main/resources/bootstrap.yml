@@ -1,5 +1,3 @@
-server:
-  port: 8098
 spring:
   application:
     name: ms-bootcoin-account
@@ -11,14 +9,14 @@ spring:
   data:
     mongodb:
       uri: mongodb+srv://admin11:admin11@yker11.s79yf.mongodb.net/db_bank?retryWrites=true&w=majority
-  cache:
-    type: redis
-    redis:
-      host: localhost
-      port: 6379
+#  cache:
+#    type: redis
+#    redis:
+#      host: localhost
+#      port: 6379
 
-application:
-  external:
-    comments:
-      url: http://localhost:8095
-      path: /ms-bootcoin-transaction
+#application:
+#  external:
+#    comments:
+#      url: http://localhost:8095
+#      path: /ms-bootcoin-transaction
